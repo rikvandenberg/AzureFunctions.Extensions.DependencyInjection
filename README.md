@@ -1,0 +1,1 @@
+AzureFunctions.Extensions.DependencyInjection
