@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <LangVersion>7.0</LangVersion>
+    <TargetFramework>net461</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Rik van den Berg</Authors>
+    <Company />
+    <Description>Microsoft.Extensions.DependencyInjection Implementation of DI for Azure Functions</Description>
+    <Copyright>2018</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <Version>1.0.0</Version>
+    <PackageProjectUrl>https://github.com/rikvandenberg/AzureFunctions.Extensions.DependencyInjection</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/rikvandenberg/AzureFunctions.Extensions.DependencyInjection</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageReleaseNotes>Cloned and modified from AzureFunctions.Autofac to work only with Microsoft.Extensions.DependencyInjection.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.WebJobs">
+      <Version>2.1.0-beta4</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+</Project>
