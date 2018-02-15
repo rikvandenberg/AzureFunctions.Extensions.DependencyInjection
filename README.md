@@ -8,6 +8,17 @@ Autofac based implmenetation of CJ van der Smissen [AzureFunctions.AutoFac](http
 
 [AzureFunctions.Extensions.DependencyInjection on NuGet](https://www.nuget.org/packages/AzureFunctions.Extensions.DependencyInjection)
 
+## Roadmap & Updates
+**1.1.0**
+- Multi Target Frameworks : NET462, NET471 and NETSTANDARD2.0
+
+**1.0.1**
+- License Added
+
+**1.0.0**
+- Initial working version based on the referenced implementation.
+---
+
 ## Usage
 In order to implement the dependency injection you have to create a class to configure DependencyInjection and add an attribute on your function class.
 

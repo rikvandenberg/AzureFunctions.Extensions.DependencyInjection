@@ -8,12 +8,13 @@
     <Company />
     <Description>Microsoft.Extensions.DependencyInjection Implementation of DI for Azure Functions</Description>
     <Copyright>2018</Copyright>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <Version>1.0.1</Version>
-    <PackageProjectUrl>https://github.com/rikvandenberg/AzureFunctions.Extensions.DependencyInjection</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/rikvandenberg/AzureFunctions.Extensions.DependencyInjection</RepositoryUrl>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <Version>1.1.0</Version>
     <RepositoryType>GitHub</RepositoryType>
-    <PackageReleaseNotes>Cloned and modified from AzureFunctions.Autofac to work only with Microsoft.Extensions.DependencyInjection.</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/rikvandenberg/AzureFunctions.Extensions.DependencyInjection</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/rikvandenberg/AzureFunctions.Extensions.DependencyInjection</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/rikvandenberg/AzureFunctions.Extensions.DependencyInjection/tree/master/licenses</PackageLicenseUrl>
+    <PackageReleaseNotes>Targeting multiple frameworks NET462, NET471 and NETSTANDARD2.0</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
