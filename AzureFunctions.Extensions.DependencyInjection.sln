@@ -16,7 +16,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "licenses", "licenses", "{54
 		licenses\LICENSE = licenses\LICENSE
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionAppSample", "FunctionAppSample\FunctionAppSample.csproj", "{D0488022-01E0-4D2F-813D-6DD2FB48E90A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionAppSample", "FunctionAppSample\FunctionAppSample.csproj", "{D0488022-01E0-4D2F-813D-6DD2FB48E90A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionAppSample.NetStandard", "FunctionAppSample.NetStandard\FunctionAppSample.NetStandard.csproj", "{5D57A3DE-D9BC-4162-ACFA-9EA66841ADCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{D0488022-01E0-4D2F-813D-6DD2FB48E90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0488022-01E0-4D2F-813D-6DD2FB48E90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0488022-01E0-4D2F-813D-6DD2FB48E90A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D57A3DE-D9BC-4162-ACFA-9EA66841ADCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D57A3DE-D9BC-4162-ACFA-9EA66841ADCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D57A3DE-D9BC-4162-ACFA-9EA66841ADCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D57A3DE-D9BC-4162-ACFA-9EA66841ADCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
