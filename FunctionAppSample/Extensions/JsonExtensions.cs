@@ -8,7 +8,7 @@ namespace FunctionAppSample
 {
     internal static class JsonExtensions
     {
-        internal static HttpResponseMessage CreateJsonResponse<T>(this HttpRequestMessage req, HttpStatusCode status, T value)
+        internal static HttpResponseMessage CreateJsonResponse<T>(HttpStatusCode status, T value)
         {
             var jsonToReturn = value.ToJson();
 

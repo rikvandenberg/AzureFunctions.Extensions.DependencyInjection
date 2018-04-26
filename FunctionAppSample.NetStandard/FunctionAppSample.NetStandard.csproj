@@ -4,10 +4,12 @@
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\FunctionAppSample\BodyDto.cs" Link="BodyDto.cs" />
     <Compile Include="..\FunctionAppSample\DataTransferObjects\LocationDto.cs" Link="DataTransferObjects\LocationDto.cs" />
     <Compile Include="..\FunctionAppSample\Data\Location.cs" Link="Data\Location.cs" />
     <Compile Include="..\FunctionAppSample\Extensions\JsonExtensions.cs" Link="Extensions\JsonExtensions.cs" />
     <Compile Include="..\FunctionAppSample\Function1.cs" Link="Function1.cs" />
+    <Compile Include="..\FunctionAppSample\Function2.cs" Link="Function2.cs" />
     <Compile Include="..\FunctionAppSample\Queries\GetAllLocationsQuery.cs" Link="Queries\GetAllLocationsQuery.cs" />
     <Compile Include="..\FunctionAppSample\Queries\GetAllLocationsQueryHandler.cs" Link="Queries\GetAllLocationsQueryHandler.cs" />
     <Compile Include="..\FunctionAppSample\Repositories\ILocationRepository.cs" Link="Repositories\ILocationRepository.cs" />
