@@ -26,7 +26,7 @@ namespace AzureFunctions.Extensions.DependencyInjection
             {
                 throw new InitializationException("DependencyInjection.Initialize must be called before dependencies can be resolved.");
             }
-            return _serviceProvider.GetService(type);
+            return _serviceProvider.GetRequiredService(type);
         }
     }
 }

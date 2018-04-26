@@ -9,6 +9,9 @@ Autofac based implmenetation of CJ van der Smissen [AzureFunctions.AutoFac](http
 [AzureFunctions.Extensions.DependencyInjection on NuGet](https://www.nuget.org/packages/AzureFunctions.Extensions.DependencyInjection)
 
 ## Roadmap & Updates
+**1.1.2**
+- All [Inject] attributes are now resolved using `GetRequiredService` and causes a more meaning full exception to be thrown.
+
 **1.1.1**
 - Fixed an issue with Azure Functions Runtime V2 by updating to beta5.
 

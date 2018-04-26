@@ -8,13 +8,16 @@
     <Company />
     <Description>Microsoft.Extensions.DependencyInjection Implementation of DI for Azure Functions</Description>
     <Copyright>2018</Copyright>
-    <AssemblyVersion>1.1.1.0</AssemblyVersion>
-    <Version>1.1.1</Version>
+    <AssemblyVersion>1.1.2.0</AssemblyVersion>
+    <Version>1.1.2</Version>
     <RepositoryType>GitHub</RepositoryType>
     <RepositoryUrl>https://github.com/rikvandenberg/AzureFunctions.Extensions.DependencyInjection</RepositoryUrl>
     <PackageProjectUrl>https://github.com/rikvandenberg/AzureFunctions.Extensions.DependencyInjection</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/rikvandenberg/AzureFunctions.Extensions.DependencyInjection/tree/master/licenses</PackageLicenseUrl>
-    <PackageReleaseNotes>**1.1.1**
+    <PackageReleaseNotes>**1.1.2**
+- All [Inject] attributes are now resolved using `GetRequiredService` and causes a more meaning full exception to be thrown.
+
+**1.1.1**
 - Fixed an issue with Azure Functions Runtime V2 by updating to beta5.
 
 **1.1.0**
@@ -25,6 +28,7 @@
 
 **1.0.0**
 - Initial working version based on the referenced implementation.</PackageReleaseNotes>
+    <FileVersion>1.1.2.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
