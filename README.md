@@ -9,6 +9,9 @@ Autofac based implmenetation of CJ van der Smissen [AzureFunctions.AutoFac](http
 [AzureFunctions.Extensions.DependencyInjection on NuGet](https://www.nuget.org/packages/AzureFunctions.Extensions.DependencyInjection)
 
 ## Roadmap & Updates
+**1.1.1**
+- Fixed an issue with Azure Functions Runtime V2 by updating to beta5.
+
 **1.1.0**
 - Multi Target Frameworks : NET462, NET471 and NETSTANDARD2.0
 

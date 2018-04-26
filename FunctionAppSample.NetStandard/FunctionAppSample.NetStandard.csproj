@@ -15,7 +15,7 @@
     <Compile Include="..\FunctionAppSample\Startup.cs" Link="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.8" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.13" />
     <PackageReference Include="Microsoft.WindowsAzure.ConfigurationManager" Version="3.2.3" />
     <PackageReference Include="Vanguard.Framework.Core" Version="0.0.11" />
   </ItemGroup>

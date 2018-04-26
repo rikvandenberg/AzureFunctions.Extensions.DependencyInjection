@@ -8,13 +8,23 @@
     <Company />
     <Description>Microsoft.Extensions.DependencyInjection Implementation of DI for Azure Functions</Description>
     <Copyright>2018</Copyright>
-    <AssemblyVersion>1.1.0.0</AssemblyVersion>
-    <Version>1.1.0</Version>
+    <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <Version>1.1.1</Version>
     <RepositoryType>GitHub</RepositoryType>
     <RepositoryUrl>https://github.com/rikvandenberg/AzureFunctions.Extensions.DependencyInjection</RepositoryUrl>
     <PackageProjectUrl>https://github.com/rikvandenberg/AzureFunctions.Extensions.DependencyInjection</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/rikvandenberg/AzureFunctions.Extensions.DependencyInjection/tree/master/licenses</PackageLicenseUrl>
-    <PackageReleaseNotes>Targeting multiple frameworks NET462, NET471 and NETSTANDARD2.0</PackageReleaseNotes>
+    <PackageReleaseNotes>**1.1.1**
+- Fixed an issue with Azure Functions Runtime V2 by updating to beta5.
+
+**1.1.0**
+- Multi Target Frameworks : NET462, NET471 and NETSTANDARD2.0
+
+**1.0.1**
+- License Added
+
+**1.0.0**
+- Initial working version based on the referenced implementation.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -32,7 +42,7 @@
 
   <!-- Conditionally obtain references for the .NET Standard 2.0target -->
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
-    <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.0-beta4" />
+    <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.0-beta5" />
   </ItemGroup>
 
 </Project>
