@@ -9,6 +9,9 @@ Autofac based implmenetation of CJ van der Smissen [AzureFunctions.AutoFac](http
 [AzureFunctions.Extensions.DependencyInjection on NuGet](https://www.nuget.org/packages/AzureFunctions.Extensions.DependencyInjection)
 
 ## Roadmap & Updates
+**1.1.3**
+- Framework 4.6.1 and 4.7.1 libraries now depends upon `Microsoft.Azure.WebJobs` 2.2.0
+
 **1.1.2**
 - All [Inject] attributes are now resolved using `GetRequiredService` and causes a more meaning full exception to be thrown.
 
